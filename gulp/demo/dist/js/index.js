@@ -1,0 +1,1 @@
+"use strict";var _EnemyPlane=require("./EnemyPlane"),_MyPlane=require("./MyPlane"),enemyPlane=new _EnemyPlane.EnemyPlane("color",18,"left",1e3),myPlane=new _MyPlane.MyPlane("color",18,"left","right");enemyPlane.moveDown(),myPlane.shoot();
